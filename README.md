@@ -1,6 +1,7 @@
 sítě a tutoš na ně:
-
 videa a duležité časy:
+
+video 1:
 https://owncloud.vspj.cz/index.php/s/azXXjMNTRhYJ25v
 
 Základní příkazy v Terminálu
@@ -88,5 +89,5 @@ SSH a SElinux – vzdálená kontrola počítače (Putty) (video 2 – 2:17:38)
 
 ![image](https://github.com/user-attachments/assets/95fb9fac-7147-4501-b0c2-5d42fbd16f5c)
 
-
+video 2:
 https://owncloud.vspj.cz/index.php/s/9OhndKJaZWmTFdO
