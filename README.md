@@ -1,5 +1,8 @@
 sítě a tutoš na ně:
 
+videa a duležité časy:
+https://owncloud.vspj.cz/index.php/s/azXXjMNTRhYJ25v
+
 Základní příkazy v Terminálu
   1.	pwd – aktuální adresář
   2.	ls – výpis složky
@@ -49,14 +52,14 @@ Linux
     •	Všechna DNS -> #DNS (na druhé síťovce -> zakomentovat)
   7.	Uložit
   8.	V terminálu -> ifup eth1 – aktualizuje parametry rozhrání
-Windows
+Windows 1:45:30
   9.	Nastavení adaptéru
     •	IP address: 10.0.0.9 (nebo jiná z rozsahu /8)
     •	Subnet mask 255.0.0.0 (/8)
     •	Default gateway: 10.0.0.1 (adresa interní síťovky eth1 z Linuxu)
     •	DNS: 8.8.8.8 (Googlovská)
   10.	V terminálu -> ifup eth0 – aktualizuje parametry rozhrání
-Linux
+Linux 1:58:40
   11.	mc -> cd /etc
   12.	sysctl.conf -> edit
   13.	net.ipv4.ip_forward = 1 (povolení forwardování na Linuxu)
@@ -85,14 +88,5 @@ SSH a SElinux – vzdálená kontrola počítače (Putty) (video 2 – 2:17:38)
 
 ![image](https://github.com/user-attachments/assets/95fb9fac-7147-4501-b0c2-5d42fbd16f5c)
 
-
-videa a duležité časy:
-https://owncloud.vspj.cz/index.php/s/azXXjMNTRhYJ25v
-0:01:30
-1:21:00
-1:45:30
-1:51:00
-1:58:40
-2:17:00
 
 https://owncloud.vspj.cz/index.php/s/9OhndKJaZWmTFdO
