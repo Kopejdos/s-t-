@@ -83,6 +83,7 @@ SSH a SElinux – vzdálená kontrola počítače (Putty) (video 2 – 2:17:38)
   9.	systemctl status sshd.service 
   10.	netstat -antpu 
 
+![image](https://github.com/user-attachments/assets/95fb9fac-7147-4501-b0c2-5d42fbd16f5c)
 
 
 videa a duležité časy:
@@ -92,5 +93,6 @@ https://owncloud.vspj.cz/index.php/s/azXXjMNTRhYJ25v
 1:45:30
 1:51:00
 1:58:40
+2:17:00
 
 https://owncloud.vspj.cz/index.php/s/9OhndKJaZWmTFdO
