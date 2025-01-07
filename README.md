@@ -68,6 +68,22 @@ Linux
     •	Maškarádování -> Povolit maškarádu v zóně
     •	Možnosti -> Znovu načíst firewall
 
+SSH a SElinux – vzdálená kontrola počítače (Putty) (video 2 – 2:17:38)
+  1.	mc -> cd /etc/ssh
+  2.	sshd_config -> edit
+  3.	odkomentovat port (a eventuelně ho změnit / změnit další nastavení)
+    •	PermitRootLogin -> přístup přímo na root účet přes Putty (yes/no)
+  4.	uložit a zpět do terminálu
+  5.	sudo firewall-cmd --add-port [CISLO_PORTU]/tcp --permanent 
+    (pro smazání místo add -> remove)
+  6.	firewall-cmd --reload
+  7.	semanage port -a -t ssh_port_t -p tcp [CISLO_PORTU] 
+    (pro smazání místo -a -> --delete)
+  8.	systemctl restart sshd.service 
+  9.	systemctl status sshd.service 
+  10.	netstat -antpu 
+
+
 
 videa a duležité časy:
 https://owncloud.vspj.cz/index.php/s/azXXjMNTRhYJ25v
