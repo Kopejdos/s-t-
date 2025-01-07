@@ -1,1 +1,1 @@
-# s-t-
+sítě a tutoš na ně
