@@ -103,7 +103,27 @@ Linux
     •	wget https://alpha.kts.vspj.cz/~apribyl/dhcpd.txt
     •	mv dhcpd.txt dhcpd.conf -> přejmenování souboru
     •	obsah souboru:
+authoritative;
 
+default-lease-time 86400;
+
+max-lease-time 259200;
+
+option subnet-mask 255.0.0.0;
+
+option domain-name-servers 192.168.50.165, 192.168.50.166;
+
+option domain-name "vspj.cz";
+
+subnet 10.0.0.0 netmask 255.0.0.0 {
+
+range 10.0.0.100 10.0.0.200;
+
+option broadcast-address
+
+10.255.255.255;
+
+option routers 10.0.0.1; }
 ![image](https://github.com/user-attachments/assets/c4009128-f9db-46e6-b76e-8ce84d0531d2)
 
   7.	systemctl start dhcpd -> nastartování DHCP serveru
